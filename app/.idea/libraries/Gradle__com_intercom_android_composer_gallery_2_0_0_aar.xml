@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.intercom:android-composer-gallery:2.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cd45f29408b90832a6312736131039ce/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cd45f29408b90832a6312736131039ce/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cd45f29408b90832a6312736131039ce/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.intercom/android-composer-gallery/2.0.0/6d24f4cd78a32607c33485a2ff2a213775e46fd/android-composer-gallery-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

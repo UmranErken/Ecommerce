@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <ImageButton
+        android:id="@+id/close"
+
+        android:layout_marginTop="20sp"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        app:srcCompat="@drawable/ic_action_close" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo" />
+
+    <EditText
+    android:id="@+id/r_username"
+    android:layout_width="280sp"
+    android:layout_height="40sp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="140sp"
+    android:layout_marginTop="240sp"
+        android:background="@drawable/sign_in"
+    android:drawableLeft="@drawable/ic_action_user"
+    android:fontFamily="sans-serif-light"
+    android:hint="Username"
+    android:inputType="textEmailAddress"
+    android:paddingRight="20sp"
+    android:textAllCaps="true"
+    android:textColorHint="@color/colorPrimary"
+    android:textSize="16sp"
+    android:visibility="visible" />
+    <EditText
+        android:id="@+id/r_email"
+        android:layout_width="280sp"
+        android:layout_height="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="140sp"
+        android:layout_marginTop="340sp"
+        android:background="@drawable/sign_in"
+        android:drawableLeft="@drawable/ic_action_mail"
+        android:drawablePadding="2dip"
+        android:fontFamily="sans-serif-light"
+        android:hint="Mail Address"
+        android:inputType="textEmailAddress"
+        android:paddingRight="20sp"
+        android:textAllCaps="true"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16sp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/r_password"
+        android:layout_width="280sp"
+        android:layout_height="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440sp"
+        android:background="@drawable/sign_in"
+        android:drawableLeft="@drawable/ic_action_pas"
+        android:fontFamily="sans-serif-light"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingRight="20sp"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16sp"
+        android:visibility="visible" />
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="220sp"
+
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530sp"
+        android:background="@drawable/sign_in"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Sign Up"
+
+        android:textColor="@color/colorAccent" />
+</RelativeLayout>
